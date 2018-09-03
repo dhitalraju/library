@@ -98,10 +98,10 @@ public class UnicodeConverter {
     public static void main(String[] args) {
 
         //option 1
-//        String utf8Text = "\u0627\u0644\u0628\u0646\u0643 \u0627\u0644\u0645\u062a\u062d\u062f";
-//        byte[] bytes = utf8Text.getBytes(StandardCharsets.UTF_8);
-//        String text = new String(bytes, StandardCharsets.UTF_8);
-//        System.out.println("TEXT :: " +text);
+        String utf8Text = "\u0627\u0644\u0628\u0646\u0643 \u0627\u0644\u0645\u062a\u062d\u062f";
+        byte[] bytes = utf8Text.getBytes(StandardCharsets.UTF_8);
+        String text = new String(bytes, StandardCharsets.UTF_8);
+        System.out.println("TEXT :: " +text);
         //option 2
 //        String myString = "\u0627\u0644\u0628\u0646\u0643 \u0627\u0644\u0645\u062a\u062d\u062f";
 //        try {
@@ -125,10 +125,10 @@ public class UnicodeConverter {
 //        UnicodeConverter.convertHexToString(string);
 
         //option 6
-        char c = 'क';
-        System.out.println("HEX Value ::: " +UnicodeConverter.toHexString(c));
-        String string = UnicodeConverter.toHexString(c);
-        System.out.println("Converted Value :: " +unescapeJava(string));
+//        char c = 'क';
+//        System.out.println("HEX Value ::: " +UnicodeConverter.toHexString(c));
+//        String string = UnicodeConverter.toHexString(c);
+//        System.out.println("Converted Value :: " +unescapeJava(string));
 
         
 //        String uniCodeChar ="البنك المتحد";
